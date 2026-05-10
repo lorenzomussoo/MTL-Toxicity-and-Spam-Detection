@@ -53,6 +53,7 @@ The codebase is modular and automatically generates a structured analytics direc
     └── [Raw Data Files]            # efficiency_report.txt, tsne_data.npz, .json analytics
 
 (Note: Each subfolder in results/ contains detailed report.txt files, Confusion Matrices, ROC-AUC curves, and Error Analysis CSVs tracking specific misclassifications).
+```
 
 🚀 Execution & Reproducibility
 Global random seeds (seed=42) are strictly enforced for 100% reproducibility.
@@ -60,15 +61,18 @@ Global random seeds (seed=42) are strictly enforced for 100% reproducibility.
 1. Install dependencies:
 ```text
 pip install torch transformers datasets scikit-learn matplotlib seaborn
+```
 
 2. Run the full experimental pipeline:
 ```text
 python src/main.py
+```
 
 3. Regenerate plots (Optional):
 If raw data files exist in results/, you can regenerate the plot suite without re-training:
 ```text
 python src/plot_results.py
+```
 
 👥 Authors
 •	[Lorenzo Musso]
