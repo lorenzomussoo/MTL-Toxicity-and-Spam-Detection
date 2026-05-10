@@ -1,0 +1,5 @@
+=== Parameter Efficiency Analysis ===
+Base Architecture Parameters: 66,955,010 (255.41 MB)
+Joint Training Cost (2 Models): 133,910,020 (510.83 MB)
+Merged Deployment Cost: 66,955,010 (255.41 MB)
+Total Resources Saved: 66,955,010 parameters (255.41 MB)

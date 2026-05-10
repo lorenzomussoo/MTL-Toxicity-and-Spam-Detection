@@ -1,0 +1,23 @@
+
+============================================================
+RESULTS FOR: Spam (Model B)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.99      1.00      0.99       966
+    Positive       1.00      0.93      0.96       149
+
+    accuracy                           0.99      1115
+   macro avg       0.99      0.96      0.98      1115
+weighted avg       0.99      0.99      0.99      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                966 |                  0 |
+True Positive  |                 11 |                138 |
+
+--> Macro F1-Score: 0.9780
+--> AUC-ROC Score:  0.9937
+

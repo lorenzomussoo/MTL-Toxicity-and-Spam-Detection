@@ -1,0 +1,276 @@
+
+============================================================
+RESULTS FOR: Standard Tox (a=0.0)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.56      0.22      0.31      1718
+    Positive       0.41      0.76      0.54      1252
+
+    accuracy                           0.45      2970
+   macro avg       0.48      0.49      0.43      2970
+weighted avg       0.50      0.45      0.41      2970
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                377 |               1341 |
+True Positive  |                302 |                950 |
+
+--> Macro F1-Score: 0.4254
+--> AUC-ROC Score:  0.4789
+
+
+============================================================
+RESULTS FOR: Standard Spam (a=0.0)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.87      0.93      0.90       966
+    Positive       0.19      0.11      0.14       149
+
+    accuracy                           0.82      1115
+   macro avg       0.53      0.52      0.52      1115
+weighted avg       0.78      0.82      0.80      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                898 |                 68 |
+True Positive  |                133 |                 16 |
+
+--> Macro F1-Score: 0.5183
+--> AUC-ROC Score:  0.5745
+
+
+============================================================
+RESULTS FOR: Standard Tox (a=0.2)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.58      1.00      0.73      1718
+    Positive       0.00      0.00      0.00      1252
+
+    accuracy                           0.58      2970
+   macro avg       0.29      0.50      0.37      2970
+weighted avg       0.33      0.58      0.42      2970
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |               1718 |                  0 |
+True Positive  |               1252 |                  0 |
+
+--> Macro F1-Score: 0.3665
+--> AUC-ROC Score:  0.5687
+
+
+============================================================
+RESULTS FOR: Standard Spam (a=0.2)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.87      1.00      0.93       966
+    Positive       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                966 |                  0 |
+True Positive  |                149 |                  0 |
+
+--> Macro F1-Score: 0.4642
+--> AUC-ROC Score:  0.9726
+
+
+============================================================
+RESULTS FOR: Standard Tox (a=0.4)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.59      0.95      0.73      1718
+    Positive       0.61      0.12      0.19      1252
+
+    accuracy                           0.60      2970
+   macro avg       0.60      0.53      0.46      2970
+weighted avg       0.60      0.60      0.50      2970
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |               1624 |                 94 |
+True Positive  |               1108 |                144 |
+
+--> Macro F1-Score: 0.4616
+--> AUC-ROC Score:  0.6208
+
+
+============================================================
+RESULTS FOR: Standard Spam (a=0.4)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.87      1.00      0.93       966
+    Positive       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                966 |                  0 |
+True Positive  |                149 |                  0 |
+
+--> Macro F1-Score: 0.4642
+--> AUC-ROC Score:  0.9894
+
+
+============================================================
+RESULTS FOR: Standard Tox (a=0.6)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.63      0.74      0.68      1718
+    Positive       0.53      0.41      0.46      1252
+
+    accuracy                           0.60      2970
+   macro avg       0.58      0.57      0.57      2970
+weighted avg       0.59      0.60      0.59      2970
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |               1263 |                455 |
+True Positive  |                737 |                515 |
+
+--> Macro F1-Score: 0.5715
+--> AUC-ROC Score:  0.6201
+
+
+============================================================
+RESULTS FOR: Standard Spam (a=0.6)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.94      1.00      0.97       966
+    Positive       1.00      0.55      0.71       149
+
+    accuracy                           0.94      1115
+   macro avg       0.97      0.78      0.84      1115
+weighted avg       0.94      0.94      0.93      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                966 |                  0 |
+True Positive  |                 67 |                 82 |
+
+--> Macro F1-Score: 0.8382
+--> AUC-ROC Score:  0.9914
+
+
+============================================================
+RESULTS FOR: Standard Tox (a=0.8)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.65      0.66      0.65      1718
+    Positive       0.52      0.51      0.51      1252
+
+    accuracy                           0.60      2970
+   macro avg       0.58      0.58      0.58      2970
+weighted avg       0.59      0.60      0.59      2970
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |               1134 |                584 |
+True Positive  |                617 |                635 |
+
+--> Macro F1-Score: 0.5839
+--> AUC-ROC Score:  0.6226
+
+
+============================================================
+RESULTS FOR: Standard Spam (a=0.8)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.97      1.00      0.99       966
+    Positive       1.00      0.82      0.90       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.91      0.94      1115
+weighted avg       0.98      0.98      0.97      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                966 |                  0 |
+True Positive  |                 27 |                122 |
+
+--> Macro F1-Score: 0.9433
+--> AUC-ROC Score:  0.9913
+
+
+============================================================
+RESULTS FOR: Standard Tox (a=1.0)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.64      0.67      0.66      1718
+    Positive       0.52      0.48      0.50      1252
+
+    accuracy                           0.59      2970
+   macro avg       0.58      0.58      0.58      2970
+weighted avg       0.59      0.59      0.59      2970
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |               1158 |                560 |
+True Positive  |                656 |                596 |
+
+--> Macro F1-Score: 0.5754
+--> AUC-ROC Score:  0.6257
+
+
+============================================================
+RESULTS FOR: Standard Spam (a=1.0)
+============================================================
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative       0.98      1.00      0.99       966
+    Positive       1.00      0.89      0.94       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.94      0.97      1115
+weighted avg       0.99      0.98      0.98      1115
+
+Confusion Matrix (Textual):
+               | Predicted Negative | Predicted Positive |
+----------------------------------------------------------
+True Negative  |                966 |                  0 |
+True Positive  |                 17 |                132 |
+
+--> Macro F1-Score: 0.9654
+--> AUC-ROC Score:  0.9911
+

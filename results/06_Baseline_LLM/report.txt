@@ -1,0 +1,32 @@
+==================================================
+LLM ZERO-SHOT BASELINE: TOXICITY
+==================================================
+              precision    recall  f1-score   support
+
+   Not Toxic       0.76      0.17      0.27      1718
+       Toxic       0.45      0.93      0.60      1252
+
+    accuracy                           0.49      2970
+   macro avg       0.60      0.55      0.44      2970
+weighted avg       0.63      0.49      0.41      2970
+
+Confusion Matrix:
+[[ 288 1430]
+ [  93 1159]]
+
+==================================================
+LLM ZERO-SHOT BASELINE: SPAM
+==================================================
+              precision    recall  f1-score   support
+
+    Not Spam       0.87      0.90      0.89       966
+        Spam       0.17      0.13      0.15       149
+
+    accuracy                           0.80      1115
+   macro avg       0.52      0.52      0.52      1115
+weighted avg       0.78      0.80      0.79      1115
+
+Confusion Matrix:
+[[871  95]
+ [129  20]]
+
