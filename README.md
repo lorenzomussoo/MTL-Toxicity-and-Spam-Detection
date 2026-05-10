@@ -5,7 +5,7 @@
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E)](https://huggingface.co/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Sapienza University of Rome - Natural Language Processing Course (HWp)** > 📄 **Final Report:** The comprehensive scientific discussion and analysis can be found in the [`NLP_Report.pdf`](./NLP_Report.pdf) file located in the root directory.
+> **Sapienza University of Rome - Natural Language Processing Course (HWp)** > 📄 **Final Report:** The comprehensive scientific discussion and analysis can be found in the [`NLP_Report.pdf`](./NLP_Report.pdf) file located in the root directory. DA SISTEMAREEEEEEEE!!
 
 ## 📖 Abstract
 This project addresses a core challenge in Natural Language Processing: mitigating catastrophic forgetting without the computational cost of joint-training. We explore **Task Arithmetic** (Model Merging) as a parameter-efficient solution for Multi-Task Text Classification. 
@@ -47,8 +47,6 @@ The codebase is modular and automatically generates a structured analytics direc
     ├── 04_Merged_Standard/         # Results for Standard Task Arithmetic (alphas 0.0 to 1.0)
     ├── 05_Merged_TIES/             # Results for TIES-Merging (alphas 0.0 to 1.0)
     ├── 06_Baseline_LLM/            # Generative BART-Large evaluation
-    ├── Checkpoints/                
-    │   └── optimal_merged_ties.pt  # Saved weights of the best performing merged model
     ├── Plots/                      # 8 high-res charts (Trade-offs, ROCs, Heatmaps, T-SNE)
     └── [Raw Data Files]            # efficiency_report.txt, tsne_data.npz, .json analytics
 
