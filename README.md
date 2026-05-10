@@ -53,7 +53,7 @@ The codebase is modular and automatically generates a structured analytics direc
 (Note: Each subfolder in results/ contains detailed report.txt files, Confusion Matrices, ROC-AUC curves, and Error Analysis CSVs tracking specific misclassifications).
 ```
 
-🚀 Execution & Reproducibility
+## 🚀 Execution & Reproducibility
 Global random seeds (seed=42) are strictly enforced for 100% reproducibility.
 
 1. Install dependencies:
@@ -72,6 +72,5 @@ If raw data files exist in results/, you can regenerate the plot suite without r
 python src/plot_results.py
 ```
 
-👥 Authors
-•	[Lorenzo Musso]
-•	[Giulia Pietrangeli]
+## 👥 Authors
+Lorenzo Musso & Giulia Pietrangeli
