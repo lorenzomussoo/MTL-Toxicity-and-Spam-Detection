@@ -72,5 +72,5 @@ If raw data files exist in results/, you can regenerate the plot suite without r
 python src/plot_results.py
 ```
 
-## 👥 Authors
-Lorenzo Musso & Giulia Pietrangeli
+---
+*Project developed by Lorenzo Musso & Giulia Pietrangeli*
