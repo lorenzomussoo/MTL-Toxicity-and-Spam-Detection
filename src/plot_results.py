@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from sklearn.manifold import TSNE
+import matplotlib.patches as mpatches
 
 def generate_plots():
     print("Generating extensive analytic plot suite...")
@@ -96,14 +97,18 @@ def generate_plots():
     plt.figure(figsize=(9, 5))
     x = np.arange(len(alphas))
     width = 0.35
-    plt.bar(x - width/2, delta_tox, width, label='Delta Toxicity (TIES - Std)', color=np.where(np.array(delta_tox)>0, '#2ca02c', '#d62728'))
-    plt.bar(x + width/2, delta_spam, width, label='Delta Spam (TIES - Std)', color=np.where(np.array(delta_spam)>0, '#98df8a', '#ff9896'))
+    plt.bar(x - width/2, delta_tox, width, color=np.where(np.array(delta_tox)>0, '#2ca02c', '#d62728'))
+    plt.bar(x + width/2, delta_spam, width, color=np.where(np.array(delta_spam)>0, '#98df8a', '#ff9896'))
     plt.axhline(0, color='black', linewidth=1)
     plt.title("TIES Improvement vs Standard Merging (+/- F1 Score)", fontweight='bold', pad=15)
     plt.xlabel("Alpha")
     plt.ylabel("F1 Score Difference")
     plt.xticks(x, alphas)
-    plt.legend()
+    leg_tox_pos = mpatches.Patch(color='#2ca02c', label='Tox F1 Improved (TIES > Std)')
+    leg_tox_neg = mpatches.Patch(color='#d62728', label='Tox F1 Worsened (Std > TIES)')
+    leg_spam_pos = mpatches.Patch(color='#98df8a', label='Spam F1 Improved (TIES > Std)')
+    leg_spam_neg = mpatches.Patch(color='#ff9896', label='Spam F1 Worsened (Std > TIES)')
+    plt.legend(handles=[leg_tox_pos, leg_tox_neg, leg_spam_pos, leg_spam_neg], loc='upper left', fontsize=9)
     plt.savefig("results/Plots/plot_6_delta_improvement.png", dpi=300, bbox_inches='tight')
     plt.close()
 
